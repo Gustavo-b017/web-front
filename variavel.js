@@ -8,6 +8,3 @@ let disciplina = null;
 let texto='este e um exemplo';
 
 console.log(texto);
-
-
-
