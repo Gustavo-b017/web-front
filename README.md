@@ -95,6 +95,8 @@
 
         - <h5> for </h5> for (let i = 0; i (operador logico) condicao; i++ (para passar para o proximo)); sendo o "i" a variavel criada
 
+    * <h4> (``) </h4> cria uma "string" para poder colocar a variavel no meio da string. <br> Para poder fazer isso, se deve usar " ${variavel} " 
+
 <hr>
 <hr>
 
