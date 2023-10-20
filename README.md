@@ -89,7 +89,11 @@
 
 7. ### Aula 7
 
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
+    * <h4> for </h4> percorre uma lista, ela pode ter duas estruturas diferntes sendo elas:
+
+        - <h5> for of </h5> for (let variiavel of lista){}; nesse modelo cria uma variavel que ira percorrer a lista definida
+
+        - <h5> for </h5> for (let i = 0; i (operador logico) condicao; i++ (para passar para o proximo)); sendo o "i" a variavel criada
 
 <hr>
 <hr>

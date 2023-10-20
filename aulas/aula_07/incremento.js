@@ -1,3 +1,4 @@
+// para somar:
 let soma = 7;
 
 console.log(soma);
@@ -10,31 +11,30 @@ soma += 2;
 
 console.log(soma);
 
-// para subtrair
-
-let sub = 7;
-
-console.log(sub);
-
-sub--;
-
-console.log(sub);
-
-sub -= 2;
-
-console.log(sub);
-
-// para multiplicar
+// para multiplicar; variavel *= numero
+// " * " significa multiplicar
 
 let mult = 7;
 
 console.log(mult);
 
-mult--;
+mult *= 2;
 
 console.log(mult);
 
-mult -= 2;
+// para dividir; variavel /= numero
+//  "/" significa dividir 
 
-console.log(mult);
+let divi = 7;
+
+console.log(divi);
+
+divi /= 2;
+
+console.log(divi);
+
+
+
+
+
 
