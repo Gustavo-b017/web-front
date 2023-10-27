@@ -1,0 +1,47 @@
+/* serve para selecionar todos os elementos do html */
+* {
+    margin: 0;
+    /*  */
+    padding: 0;
+}
+
+
+
+.container {    
+    max-width: 400px;
+    border: 1px solid aquamarine;
+    /* borda arredondada, precisa definir uma borda antes de colocar essa propriedade */
+    border-radius: 5px;
+    /* auto -- deixa aotomatico no centro */
+    margin: 0 auto;
+    /* centarliza todo o texto, center -- coloca tudo no centro */
+    text-align: center;
+
+}
+
+.card {
+    height: 150;
+    background-color: darkblue;
+    color: red;
+    /* centraliza o texto, podendo escolher onde sera centralizado */
+    text-align: center;
+    /*  */
+    line-height: 150px;
+}
+
+.botao {
+    /* coloca cor, imagem, posicao  */
+    background: aqua;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    /* coloca a maozinha quando se passa em cima */
+    cursor: pointer;
+}
+
+.corTiraDiv {
+    background: green;
+}
+
