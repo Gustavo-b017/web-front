@@ -47,21 +47,98 @@
 
 1. ### Aula 1
 
-    * Aula teorica, sobre a introducao ao front-end
+    * Aula teorica, sobre a introducao ao HTML e JavaScript
 
 <hr>
 <hr>
 
 2. ### Aula 2
 
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
+    <h3> HTML: </h3>
+
+    * <h4> script -- </h4> comando que serve para inumeras coisas, como anexar outra pagina de codigo, criar eventos e ate estilizar. <br> Porem, ele deve ser colocado no head ou no final do body, evitando ao maximo colocalo no meio do codigo.
+        
+        - <h5> src --</h5> busca um arquivo na maquina ou na nuvem, devendo fornecer o caminho para o arquivo
+
+        - <h5> type --</h5> Define o tipo de arquivo, sendo obrigatorio informar o tipo.
+        <hr>
+
+    - <h4> !DOCTYPE html -- </h4> define o arquivo em questo como sendo do tipo html, ou seja que ira rodar no front (mostra ao usuario).
+
+         <hr>
+         
+        - <h5> head -- </h5> É a cabeca do site, nao sendo mostrado ao usuario serve para rodar e chamar codigo de outros lugares, bem como definir algumas coisas basicas, como o script e o tipo de linguagem
+
+            - <h6> meta charset = "UTF-8" -- </h6> define a linguagem sendo portugues-br, para dar mais flexibilidade ao digitar algo 
+            
+            - <h6> title -- </h6> adiciona um titulo ao site, algo que pode ser visto no topo da janela, onde faz frontera com outras paginas
+
+         <hr>        
+
+        - <h5> body -- </h5> Cria o corpo do site, onde o que será escrito podera ser exibido ao usuario.
+
+            - <h6> button -- </h6> cria um botao, porem ele nao faz nada por enquanto
+                - <h6> onclick -- </h6> cria um evento, onde ele executa alguma acao.
+
+    <h3> JavaScript: </h3>
+
+    * <h4> document.write -- </h4> adiciona uma mensagem na tela, porem nao e muito utilizado, pois esta ultrapassado.
+
+         <hr>
+
+    * <h4> console.log --</h4> usado para exibir uma mensagem na tela, sendo o mais atual e usado.
+         
+         <hr>
+
+    * <h4> let -- </h4> Cria uma variavel, nao importando se é string, boolean, ou numero inteiro ou fracionario 
+
+         <hr>
 
 <hr>
 <hr>
 
 3. ### Aula 3
 
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
+
+    * <h4> .toString -- </h4> propriedade que transforma o valor de uma variavel numerica em string. <br> Sendo usado depois da variavel que contem o valor numerico  
+
+         <hr>
+
+    * <h4> .replace() -- </h4> propriedade que subistitui algum valor dentro de uma STRING. <br> Sendo usada depois da variavel que tera a substituicao, para subistituir se deve colocar o termo a ser subistituido e depois o que ira substituir
+        
+         <hr>
+
+    * <h4> typeof -- </h4> pega somente o tipo da variavel, podendo ser: string, boolean, ou numero inteiro/fracionario
+
+         <hr>
+
+    * <h4> let variavel = ...  : </h4>
+        
+        - <h5> null --  </h5> variavel vazia, nao tendo valor
+        
+        - <h5> let variavel ; </h5> variavel com valor indefinido
+        
+        - <h5> = valor  </h5> cria uma variavel que tem um valor, sendo string(entre aspas ""), numero ou boolean (true or false)
+
+         <hr>
+
+    * <h4>  </h4>
+        
+        - <h5>  </h5>
+
+         <hr>
+
+    * <h4>  </h4>
+        
+        - <h5>  </h5>
+
+         <hr>
+
+    * <h4>  </h4>
+        
+        - <h5>  </h5>
+
+         <hr>
 
 <hr>
 <hr>
