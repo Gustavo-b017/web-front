@@ -22,6 +22,8 @@
 <br>
 <a href="#Aula-7">#  Aula 7 </a>
 <br>
+<a href="#Aula-8">#  Aula 8 </a>
+<br>
 <a href="#-Obs">#  Observações </a>
 <br>
 <a href="#-Autor"> # Autor </a>
@@ -179,7 +181,7 @@
 
 8. ### Aula 8
 
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
+    * function nome_da_funcao(argumeto) -- É uma funcao, que pode ser reutilizada. Além disso ela serve para fazer acoes de maneira repetitiva. <br> Porém ele nao esta completo, pois precisa do nome da funcao, e pode conter uma argumento. <br> O nome da funcao serve para nomear a funcao para poder reutiliza-la e para chama-la. <br> O argumeto e um parametro, e esse argumeto e dinamico, podendo ser mutavel e reutilizado
 
 <hr>
 <hr>
