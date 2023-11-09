@@ -154,7 +154,7 @@
 
 5. ### Aula 5
 
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
+    * Checkpoint 2 
 
 <hr>
 <hr>
