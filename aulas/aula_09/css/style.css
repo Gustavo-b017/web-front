@@ -1,0 +1,60 @@
+body {background-color: olive;}
+body {
+    background: rgb(226, 226, 226);
+  }
+  
+  .container {
+    border: 1px solid rgb(196 197 205);
+    max-width: 500px;
+    /* auto -- centraliza tudo */
+    margin: 100px auto;
+    /* centraliza os elemnetos */
+    text-align: center;
+    /* cor de fundo da classe */
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    /* da um espacamento entre as as caixas */
+    margin: 25px;
+  }
+  
+  .form-control input[type="text"], 
+  .form-control input[type="password"] {
+    width: 80%;
+    padding: 12px 20px;
+    padding-left: 5px;
+    outline: 0;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    /* define a cor do botao */
+    background: rgb(5, 1, 54);
+    
+    color: #fff;
+    /* define o tamanho da fonte */
+    font-size: 16px;
+    /*  */
+    padding: 10px;
+    /* cria uma borda envolta da caixa */
+    border: 0;
+    /* cria um estilo do mause de mao quando se passa por cima */
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    text-align: left;
+    margin-left: 32px;
+    transition: all 0.2s;
+  }
+  
+  .d-none {
+    display: none;
+  }
+  
+  .d-block {
+    display: block;
+  }
