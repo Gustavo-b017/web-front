@@ -11,6 +11,8 @@ function clearform(){
     campoNome.value = ""
     campoCidade.value = ""
 }
+// criando um elemento p
+const pMensagem = document.createElement("p")
 
 
 // funcao da validadacao
@@ -24,12 +26,17 @@ buttonValidacao.addEventListener("click", function(event){
     // = -- recebe o valor
     // trim -- tira todos os espacos 
     if(campoNome.value.trim() === ""){
+        // textContent -- adiciona uma mensagem
+        pMensagem.textContent = "campo obrigatorio"
         alert("preencha o campo nome")
+        pMensagem.setAttribute("class", "erro")
         return false
     }
     
     if(campoCidade.value.trim() === ""){
+        pMensagem.textContent = "campo obrigatorio"
         alert("preencha o campo cidade")
+        pMensagem.setAttribute("class", "erro")
         return false
     }
 
