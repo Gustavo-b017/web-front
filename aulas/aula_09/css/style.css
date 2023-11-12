@@ -1,0 +1,71 @@
+* { 
+    list-style:none;
+}
+body {
+    /* define a cor de fundo */
+    background: rgb(226, 226, 226);
+  }
+  
+  .container {
+    border: 1px solid rgb(196 197 205);
+    /* define o tamanho maximo da caixa/classe */
+    max-width: 500px;
+    /* auto -- centraliza tudo */
+    margin: 100px auto;
+    /* centraliza os elemnetos */
+    text-align: center;
+    /* cor de fundo da classe */
+    background: #fff;
+
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    /* da um espacamento entre as as caixas */
+    margin: 25px;
+  }
+  
+  .form-control input[type="text"], 
+  .form-control input[type="password"] {
+    width: 80%;
+    /* da um espacamento do texto de dentro da caixa de pergunta, da um espacamento no miolo da caixa */
+    padding: 12px 20px;
+    /* da um espacamento do texto de dentro da caixa de pergunta para a esquerda */
+    padding-left: 5px;
+
+    outline: 0;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    /* define a cor do botao */
+    background: rgb(5, 1, 54);
+    /* define a cor da letra do botao */
+    color: #fff;
+    /* define o tamanho da fonte */
+    font-size: 16px;
+    /* da um espacamento do texto de dentro da caixa de pergunta, da um espacamento no miolo da caixa */
+    padding: 10px;
+    /* cria uma borda envolta da caixa */
+    border: 0;
+    /* cria um estilo do mause de mao quando se passa por cima */
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    /* alina o testo para a esquerda */
+    text-align: left;
+
+    margin-left: 32px;
+    /* animacao de transizao */
+    transition: all 0.2s;
+  }
+  
+  .d-none {
+    display: none;
+  }
+  
+  .d-block {
+    display: block;
+  }
