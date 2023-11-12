@@ -8,6 +8,8 @@
 <br>
 <a href="#-Comandos"># Comandos </a>
 <br>
+<a href="#CSS">#  CSS </a>
+<br>
 <a href="#Aula-1">#  Aula 1 </a>
 <br>
 <a href="#Aula-2">#  Aula 2 </a>
@@ -182,6 +184,13 @@
 8. ### Aula 8
 
     * function nome_da_funcao(argumeto) -- É uma funcao, que pode ser reutilizada. Além disso ela serve para fazer acoes de maneira repetitiva. <br> Porém ele nao esta completo, pois precisa do nome da funcao, e pode conter uma argumento. <br> O nome da funcao serve para nomear a funcao para poder reutiliza-la e para chama-la. <br> O argumeto e um parametro, e esse argumeto e dinamico, podendo ser mutavel e reutilizado
+
+<hr>
+<hr>
+
+## CSS:
+
+<a href=""> CSS do repositorio do Front-end. </a>
 
 <hr>
 <hr>
