@@ -172,25 +172,217 @@
 
     * <h4> for </h4> percorre uma lista, ela pode ter duas estruturas diferntes sendo elas:
 
-        - <h5> for of </h5> for (let variiavel of lista){}; nesse modelo cria uma variavel que ira percorrer a lista definida
+        - <h5> for "variavel" of "lista" </h5> for (let variiavel of lista){}; nesse modelo cria uma variavel que ira percorrer a lista definida
 
         - <h5> for </h5> for (let i = 0; i (operador logico) condicao; i++ (para passar para o proximo)); sendo o "i" a variavel criada
 
-    * <h4> (``) </h4> cria uma "string" para poder colocar a variavel no meio da string. <br> Para poder fazer isso, se deve usar " ${variavel} " 
+    * <h4> (`${variavel} texto`) </h4> na resposta permite colocar uma "string" no meio das variaveis. <br> Para poder fazer isso, se deve usar " (`texto ${variavel} texto`)  " 
+
+    * <h4> variavel.push -- </h4> adiciona um elemento a alguma variavel
+
+        <hr>
+
+    * <h4> lenght -- </h4> permite pegar o quantos termos tem dentro da lista
+
+        <hr>
+
+    * <h4> operacoes basicas -- </h4> 
+
+        - <h5> valor++ --</h5> soma mais 1 na variavel que conter algum
+         <hr>
+        - <h5> valor--  --</h5> subtrai 1 na variavel que contem algum valor
+         <hr>
+        - <h5> valor *= numero --</h5> faz a multiplicacao do valor da variavel com o numero depois do igual
+         <hr>
+        - <h5> valor /= --</h5> faz a divisao do valor da variavel com o numero depois do igual
+
+    * <h4> while (condicao) --</h4> Cria uma estrutura de condicao que ira se repetir ate que a condicao seja satisfeita. <br> Porem, para poder funcionar e peciso um contador fazendo um encrementacao
+
+        <hr>
 
 <hr>
 <hr>
 
 8. ### Aula 8
 
-    * function nome_da_funcao(argumeto) -- É uma funcao, que pode ser reutilizada. Além disso ela serve para fazer acoes de maneira repetitiva. <br> Porém ele nao esta completo, pois precisa do nome da funcao, e pode conter uma argumento. <br> O nome da funcao serve para nomear a funcao para poder reutiliza-la e para chama-la. <br> O argumeto e um parametro, e esse argumeto e dinamico, podendo ser mutavel e reutilizado
+    ### JavaScript:
+
+    * <h4> function nome_da_funcao(argumeto) -- </h4> É uma funcao, que pode ser reutilizada. Além disso ela serve para fazer acoes de maneira repetitiva. <br> O nome da funcao serve para nomear a funcao para poder reutiliza-la e para chama-la. <br> O argumeto e um parametro, e esse argumeto e dinamico, podendo ser mutavel e reutilizado
+
+        <hr>
+
+    * <h4> .querySelector("") -- </h4> propriedade que permite selecionar uma classe, ID ou um comando
+
+        - <h5> .classe -- </h5> seleciona uma classe, e deve ser colocada dento do parenteses
+
+         <hr>
+
+        - <h5> #ID -- </h5> seleciona um ID, e deve ser colocada dento do parenteses
+
+
+    * <h4> .addEventListener -- </h4> Propriedade
+
+        <hr>
+
+    * <h4> </h4>
+
+        <hr>
+
+    * <h4> </h4>
+
+        <hr>
+
+    * <h4> </h4>
+
+        <hr>
+
+    * <h4> </h4>
+
+        <hr>
+
+
+
 
 <hr>
 <hr>
 
 ## # CSS:
 
-<a href=""> CSS do repositorio do Front-end. </a>
+<a href="https://github.com/Gustavo-b017/Front-End/blob/main/README.md#-CSS"> CSS no repositorio do Front-end. </a>
+
+### tipos:
+
+- <h4> .class {} -- </h4> Para se criar uma classe é necessario utilizar um " . " e depois o nome da classe. <br> Para chama-la deve seguir a estrutura: <comando class="nome"> OBS: todos os comandos devem ficar dentro da classe
+
+    <hr>
+
+- <h4> #ID_nome {} -- </h4> ID é uma especie de classe que so pode ser usada uma unica vez durante o codigo, mas pode ter mais de um ID. <br> O seu funcionamento e o mesmo da classe, com a unica difenda tendo a forma de chamar e que so pode ser usada uma unica vez, igual ao cpf. <br> Para poder chama-la e necessario ter a esturura: " <coamndo id="nome">
+
+    <hr>
+
+- <h4> body {} -- </h4> Atribui as propriedades ao comando "body" no html, servindo para a pagina como um todo, podendo ser modificada caso outra propriedade faca isso.
+
+    <hr>
+
+- <h4> * {} -- </h4> seleciona todos os elementos do html
+
+<hr>
+
+### Coamndos:
+
+- <h4> border -- </h4> Cria uma borda envolta da palavra, formando uma estrutura de um retangulo com a palavra no meio. <br> Essa propriedade pode ser modificada, com cor (solid cor_desejada), espessura (10...px), etc.. 
+
+    * <h5> solid -- </h5> atribiu uma cor a borda
+
+    * <h5> none -- </h5> propriedade que substitui o numero, ela retira a borda enquando delimita o tamanho da caixa
+
+    <hr>
+
+- <h4> border-radius --</h4> Deixa a borda arredondada. <br> Antes de poder usa-la, e necessario definir uma bordar antes.
+
+    <hr>
+
+- <h4> display -- </h4> divide o tamanho da tela por pedacos, podendo se diferente a depender a propriedade colocada.
+
+    * <h5> grid </h5> divide o tamanho da tela em grades.
+
+     <hr>
+
+    * <h5> none -- </h5> 'esconde' toda a caixa onde essa propriedade foi definida
+     
+     <hr>
+
+    * <h5> block -- </h5> bloqueia uma acao anterior. <br> Ex: bloqueia a acao de esconder o conteudo
+
+    <hr>
+
+- <h4> width -- </h4> define a altura de algo, podendo ser por pixel (px), fracao da pagina (fr), ou por porcentagem da tela (num%)
+
+        <hr>
+
+- <h4> height -- </h4> define a largura da pagina, podendo ser em pixel (px), fracao da pagina (fr), ou por porcentagem da tela (num%)
+
+    <hr>
+
+- <h4> grid-template-areas -- </h4> determina onde os elementos irao ficar no site. <br> (esta no front end, aula 8)
+    
+    <hr>
+
+- <h4> grid-template-rows -- </h4> determina a quantidade de linhas que ira organizar o site. 
+
+    <hr>
+
+- <h4> grid-template-columns -- </h4> determina a quantidade de colunas no site
+
+    <hr>
+
+- <h4> background-color -- </h4> adiciona uma cor de fundo, podendo ser da caixa ou da pagina
+
+    <hr>
+
+- <h4> @media -- </h4> atua como se fosse o "if" no css
+
+    <hr>
+
+- <h4> mangin: -- </h4> define a magem em relacao a tela, da um espaco entre o conteudo e a tela. <br> Alem disso, pode servir como um espacamento entre caixas. <br>
+
+    <h5> auto -- </h5> propriedade que deixa todos os elementos alinados com o centro da pagina. <br> Recomendo deixar assim: " margin: 0 auto "
+
+    <hr>
+
+- <h4> text-aling --  </h4> alinha o texto de acordo com as propriedades que definir nele.
+
+    <h5> center -- </h5> alinha todo o texto no centro 
+
+     <hr>
+
+    <h5> right -- </h5> alinha o texto na direita
+
+     <hr>
+
+    <h5> left -- </h5> alinha o texto na esquerda
+
+    <hr>
+
+- <h4> color -- </h4> define a cor do texto
+
+    <hr>
+
+- <h4> line-height -- </h4> sem informacao
+
+    <hr>
+
+- <h4> padding -- </h4> define o tamanho da borda da caixa ao texto, ou seja, define o miolo da caixa ate chagar o conteudo em si
+
+    <h5> padding-left -- <h5> da um espacamento do texto para a caixa do lado esquerdo apenas
+
+    <hr>
+
+- <h4> cursor: pointer -- </h4> define que quando o mause passar pelo botao, ira tomar a forma de uma 'mazinha'
+
+    <hr>
+
+- <h4> max-width -- </h4> define o tamanho maximo da caixa/classe
+
+    <hr>
+
+- <h4> background -- </h4> define a cor de fundo da classe
+
+    <hr>
+
+- <h4> font-size -- </h4> define o tamanho da fonte do texto 
+
+    <hr>
+
+- <h4> </h4>
+
+    <hr>
+
+- <h4> </h4>
+
+    <hr>
+
+- <h4> </h4>
 
 <hr>
 <hr>
