@@ -18,13 +18,11 @@
 <br>
 <a href="#Aula-4">#  Aula 4 </a>
 <br>
-<a href="#Aula-5">#  Aula 5 </a>
-<br>
-<a href="#Aula-6">#  Aula 6 </a>
-<br>
 <a href="#Aula-7">#  Aula 7 </a>
 <br>
 <a href="#Aula-8">#  Aula 8 </a>
+<br>
+<a href="#Aula-9">#  Aula 9 </a>
 <br>
 <a href="#-Obs">#  Observações </a>
 <br>
@@ -43,6 +41,7 @@
 ## # Linguagens Usadas
 #### 1. Html
 #### 2. CSS
+#### 3. JavaScript
 
 <hr>
 <hr>
@@ -58,7 +57,7 @@
 
 2. ### Aula 2
 
-    <h3> HTML: </h3>
+    ### HTML:
 
     * <h4> script -- </h4> comando que serve para inumeras coisas, como anexar outra pagina de codigo, criar eventos e ate estilizar. <br> Porem, ele deve ser colocado no head ou no final do body, evitando ao maximo colocalo no meio do codigo.
         
@@ -84,7 +83,7 @@
             - <h6> button -- </h6> cria um botao, porem ele nao faz nada por enquanto
                 - <h6> onclick -- </h6> cria um evento, onde ele executa alguma acao.
 
-    <h3> JavaScript: </h3>
+    ### JavaScript: 
 
     * <h4> document.write -- </h4> adiciona uma mensagem na tela, porem nao e muito utilizado, pois esta ultrapassado.
 
@@ -96,13 +95,13 @@
 
     * <h4> let -- </h4> Cria uma variavel, nao importando se é string, boolean, ou numero inteiro ou fracionario 
 
-         <hr>
 
 <hr>
 <hr>
 
 3. ### Aula 3
 
+    ### JavaScript
 
     * <h4> .toString -- </h4> propriedade que transforma o valor de uma variavel numerica em string. <br> Sendo usado depois da variavel que contem o valor numerico  
 
@@ -124,32 +123,26 @@
         
         - <h5> = valor  </h5> cria uma variavel que tem um valor, sendo string(entre aspas ""), numero ou boolean (true or false)
 
-         <hr>
-
-    * <h4>  </h4>
-        
-        - <h5>  </h5>
-
-         <hr>
-
-    * <h4>  </h4>
-        
-        - <h5>  </h5>
-
-         <hr>
-
-    * <h4>  </h4>
-        
-        - <h5>  </h5>
-
-         <hr>
-
 <hr>
 <hr>
 
 4. ### Aula 4
 
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
+    ### JavaScript
+
+    * <h4> let -- </h4> cria uma variavel que pode mudar seu valor
+
+        <hr>
+
+    * <h4> .table -- </h4> cria uma tabela que deve ser usada no console.log, se a utiliza depois da variavel
+
+        <hr>
+
+    * <h4> .includes() -- </h4> verifica a lista e diz se tem algo desejado na lista ou nao na lista
+
+        <hr>
+
+    * <h4> ? -- </h4> faz uma pergunta ao codigo. <br> EX: const resultado = (numero % 2 == 0) ? "par" : 'impar'; <br> No caso seria como: 'o numero e divisivel por 2? se sim é par, se nao sera impar'
 
 <hr>
 <hr>
@@ -161,14 +154,9 @@
 <hr>
 <hr>
 
-6. ### Aula 6
-
-    * Aula teorica, sobre como funciona a web  e como ela foi desenvolvida
-
-<hr>
-<hr>
-
 7. ### Aula 7
+
+    ### javaScript: 
 
     * <h4> for </h4> percorre uma lista, ela pode ter duas estruturas diferntes sendo elas:
 
@@ -198,8 +186,6 @@
 
     * <h4> while (condicao) --</h4> Cria uma estrutura de condicao que ira se repetir ate que a condicao seja satisfeita. <br> Porem, para poder funcionar e peciso um contador fazendo um encrementacao
 
-        <hr>
-
 <hr>
 <hr>
 
@@ -211,7 +197,7 @@
 
         <hr>
 
-    * <h4> .querySelector("") -- </h4> propriedade que permite selecionar uma classe, ID ou um comando
+    * <h4> .querySelector("") -- </h4> propriedade que procura e pega algo no html, seja uma classe, ID ou um comando
 
         - <h5> .classe -- </h5> seleciona uma classe, e deve ser colocada dento do parenteses
 
@@ -222,13 +208,49 @@
 
     * <h4> .addEventListener -- </h4> Propriedade
 
+        - <h5> function -- </h5> inicia uma funcao, ou seja, realiza comandos caso o addEventListener seja ativado
+        <hr>
+        - <h5> style -- </h5> ...
+        <hr>
+        - <h5> display -- </h5> seleciona onde ocorrera a acao, no caso sera no display (onde se apresenta)
+        <hr>
+        - <h5> none -- </h5> 'esconde'/retira algo do site
+        <hr>
+        - <h5> block -- </h5> bloqueia uma acao anterior
+
+<hr>
+<hrf>
+
+9. ### Aula 9
+    
+    ## JavaScript: 
+
+    * <h4> preventDefault() -- </h4> previne um evento no browser
+
         <hr>
 
-    * <h4> </h4>
+    * <h4> .value -- </h4> propriedade que verifica o valor de algo, deve ser usada depois de uma variavel
 
         <hr>
 
-    * <h4> </h4>
+    * <h4> .trim() -- </h4> retira todos os espacos da string
+
+        <hr>
+
+    * <h4> operadores logicos: </h4>
+
+        <h5> === -- </h5> compara o tipo e o valor de algo
+        <hr>
+        <h5> == -- </h5> verifica somente o valor
+        <hr>
+        <h5> = -- </h5> atribui algum valor
+        <hr>
+
+    * <h4> textContent -- </h4> adiciona alguma mensagem
+
+        <hr>
+
+    * <h4> classList -- </h4> ele altera elementos do css
 
         <hr>
 

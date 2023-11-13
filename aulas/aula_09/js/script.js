@@ -7,6 +7,8 @@ const campoNome = document.querySelector("#nome");
 const campoCidade = document.querySelector("#cidade");
     // pega a tag button do html
 const buttonValidacao = document.querySelector("button");
+
+// funcao criada para poder limpar a caixa de texto
 function clearform(){
     campoNome.value = ""
     campoCidade.value = ""
@@ -29,6 +31,7 @@ buttonValidacao.addEventListener("click", function(event){
         // textContent -- adiciona uma mensagem
         pMensagem.textContent = "campo obrigatorio"
         alert("preencha o campo nome")
+        // setAttribute --
         pMensagem.setAttribute("class", "erro")
         return false
     }
