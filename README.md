@@ -394,18 +394,6 @@
 
 - <h4> font-size -- </h4> define o tamanho da fonte do texto 
 
-    <hr>
-
-- <h4> </h4>
-
-    <hr>
-
-- <h4> </h4>
-
-    <hr>
-
-- <h4> </h4>
-
 <hr>
 <hr>
 
