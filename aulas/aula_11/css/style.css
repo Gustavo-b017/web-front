@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+}
+.container{
+    max-width: 400px;
+    border: 1px solid rgb(247, 247, 247);
+    margin: 80px;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 20px ;
+    box-shadow: 2px 2px 2px;
+}
+
+form {
+    /* display: flex -- tranforma em uma flex box */
+    display: flex;
+    /* justify-content: -- ainha os elementos  */
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-control input[type=text] {
+    padding: 5px;
+    outline: none;
+}
+
+button {
+    background: rgb(4, 241, 24);
+    color:beige;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+    height: 30px;
+
+}
+
+.erro {
+    color: red;
+    text-align: center;
+}
+
+.esconder{
+    display: none
+}
