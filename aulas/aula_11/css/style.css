@@ -10,7 +10,7 @@ body {
 .container{
     max-width: 400px;
     border: 1px solid rgb(247, 247, 247);
-    margin: 80px;
+    margin: 80px auto;
     border-radius: 5px;
     background-color: blue;
     padding: 20px ;
